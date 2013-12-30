@@ -184,7 +184,7 @@
             NSUInteger index = 0;
             NSUInteger speedsCount = _scrubbingLocations.count;
             
-            for (NSNumber *num in _scrubbingSpeeds) {
+            for (NSNumber *num in _scrubbingLocations) {
                 index++;
                 
                 NSNumber *next = (speedsCount > index ? _scrubbingLocations[index] : nil);

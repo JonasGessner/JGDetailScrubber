@@ -24,6 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor blackColor];
+    
     _section1 = [[UIView alloc] init];
     _section1.backgroundColor = [UIColor redColor];
     [self.view addSubview:_section1];
@@ -48,9 +50,13 @@
     _speedLabel.backgroundColor = [UIColor clearColor];
     _speedLabel.textAlignment = NSTextAlignmentCenter;
     _speedLabel.text = @"Not scrubbing";
-    
+    _speedLabel.textColor = [UIColor whiteColor];
     [self.view addSubview:_speedLabel];
 
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)viewDidLayoutSubviews {

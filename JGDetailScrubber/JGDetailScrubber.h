@@ -13,6 +13,9 @@
 
 @interface JGDetailScrubber : UISlider
 
+/**
+ The scrubber's delegate. Must conform to the \c JGDetailScrubberDelegate protocol.
+ */
 @property (nonatomic, weak) id <JGDetailScrubberDelegate> delegate;
 
 /**
@@ -36,7 +39,7 @@
 
 
 /**
- @return Returns \c YES if the scrubber is currently scrubbing and \c NO if it isn't.
+ @return \c YES if the scrubber is currently scrubbing and \c NO if it isn't.
  */
 @property (nonatomic, assign, readonly) BOOL scrubbing;
 
