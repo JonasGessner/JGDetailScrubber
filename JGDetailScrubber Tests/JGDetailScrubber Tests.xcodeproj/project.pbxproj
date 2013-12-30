@@ -14,8 +14,8 @@
 		6BF1223A1871A62E00894601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF122391871A62E00894601 /* main.m */; };
 		6BF1223E1871A62E00894601 /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1223D1871A62E00894601 /* JGAppDelegate.m */; };
 		6BF122401871A62E00894601 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF1223F1871A62E00894601 /* Images.xcassets */; };
-		6BF1225F1871A68C00894601 /* JGDetailScrubber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1225E1871A68C00894601 /* JGDetailScrubber.m */; };
 		6BF122621871A6AC00894601 /* JGScrubbingTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF122611871A6AC00894601 /* JGScrubbingTestingViewController.m */; };
+		6BF1226A18720EB600894601 /* JGDetailScrubber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1226918720EB600894601 /* JGDetailScrubber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +31,10 @@
 		6BF1223D1871A62E00894601 /* JGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAppDelegate.m; sourceTree = "<group>"; };
 		6BF1223F1871A62E00894601 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6BF122461871A62E00894601 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6BF1225D1871A68C00894601 /* JGDetailScrubber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDetailScrubber.h; sourceTree = "<group>"; };
-		6BF1225E1871A68C00894601 /* JGDetailScrubber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDetailScrubber.m; sourceTree = "<group>"; };
 		6BF122601871A6AC00894601 /* JGScrubbingTestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGScrubbingTestingViewController.h; sourceTree = "<group>"; };
 		6BF122611871A6AC00894601 /* JGScrubbingTestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGScrubbingTestingViewController.m; sourceTree = "<group>"; };
+		6BF1226818720EB600894601 /* JGDetailScrubber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDetailScrubber.h; sourceTree = "<group>"; };
+		6BF1226918720EB600894601 /* JGDetailScrubber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDetailScrubber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				6BF1223D1871A62E00894601 /* JGAppDelegate.m */,
 				6BF122601871A6AC00894601 /* JGScrubbingTestingViewController.h */,
 				6BF122611871A6AC00894601 /* JGScrubbingTestingViewController.m */,
-				6BF1225C1871A68C00894601 /* JGDetailScrubber */,
+				6BF1226718720EB600894601 /* JGDetailScrubber */,
 				6BF1223F1871A62E00894601 /* Images.xcassets */,
 				6BF122341871A62E00894601 /* Supporting Files */,
 			);
@@ -104,11 +104,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6BF1225C1871A68C00894601 /* JGDetailScrubber */ = {
+		6BF1226718720EB600894601 /* JGDetailScrubber */ = {
 			isa = PBXGroup;
 			children = (
-				6BF1225D1871A68C00894601 /* JGDetailScrubber.h */,
-				6BF1225E1871A68C00894601 /* JGDetailScrubber.m */,
+				6BF1226818720EB600894601 /* JGDetailScrubber.h */,
+				6BF1226918720EB600894601 /* JGDetailScrubber.m */,
 			);
 			name = JGDetailScrubber;
 			path = ../../JGDetailScrubber;
@@ -178,8 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF1225F1871A68C00894601 /* JGDetailScrubber.m in Sources */,
 				6BF1223A1871A62E00894601 /* main.m in Sources */,
+				6BF1226A18720EB600894601 /* JGDetailScrubber.m in Sources */,
 				6BF122621871A6AC00894601 /* JGScrubbingTestingViewController.m in Sources */,
 				6BF1223E1871A62E00894601 /* JGAppDelegate.m in Sources */,
 			);
@@ -320,6 +320,7 @@
 				6BF122581871A62E00894601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
