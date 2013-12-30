@@ -5,6 +5,7 @@
 
 JGDetailScrubber is a UISlider subclass with variable scrubbing speeds, similar to the private class MPDetailScrubber.
 
+<p align="center"><img src="Screenshot.png" height=568px width=320px></p>
 
 ##Requirements
 
