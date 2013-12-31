@@ -9,7 +9,8 @@ JGDetailScrubber is a UISlider subclass with variable scrubbing speeds, similar 
 
 ##Requirements
 
-• iOS 5 or higher<br>
+• Base SDK: iOS 7.0 or higher<br>
+• Deployment Target: iOS 5.0 or higher<br>
 • Built with <b>ARC</b> (If your Xcode project doesn't use ARC then set the `-fobjc-arc` compiler flag)<br>
 • Foundation, UIKit and CoreGraphics frameworks<br>
 
