@@ -1,4 +1,4 @@
-<h1>JGDetailScrubber</h1><h6>© 2013 Jonas Gessner</h6>
+<h1>JGDetailScrubber</h1><h6>© 2013-2014 Jonas Gessner</h6>
 
 ----------------
 <br>
@@ -7,16 +7,28 @@ JGDetailScrubber is a UISlider subclass with variable scrubbing speeds, similar 
 
 <p align="center"><img src="Screenshot.png" height=568px width=320px></p>
 
-##Requirements
-
-• Base SDK: iOS 7.0 or higher<br>
+Requirements
+==============
 • Deployment Target: iOS 5.0 or higher<br>
 • Built with <b>ARC</b> (If your Xcode project doesn't use ARC then set the `-fobjc-arc` compiler flag)<br>
 • Foundation, UIKit and CoreGraphics frameworks<br>
 
+Setup
+=====
+<b>CocoaPods:</b><br>
+Add this to your `Podfile`:
+```
+pod 'JGDetailScrubber', '1.0'
+```
+<p>
+OR:
+<p>
+<b>Add source Files:</b><br>
+1. Add the `JGProgressView` folder to your Xcode Project.<br>
+2. `#import "JGDetailScrubber.h"`.
 
-##Usage
-
+Usage
+========
 JGDetailScrubber works like a normal UISlider, with the addition of variable scrubbing speeds for fine adjusting the slider value.
 
 ```objc
@@ -63,10 +75,10 @@ Returns `YES` if the scrubber is currently scrubbing and `NO` if it isn't.
 This method is called whenever the scrubber's `currentScrubbingSpeed` changes.
 
 
-##Credits
+Credits
+===========
+Created by Jonas Gessner. ©2013-2014
 
-Created by Jonas Gessner.
-
-##License
-
+License
+============
 JGDetailScrubber is available under the MIT license.
