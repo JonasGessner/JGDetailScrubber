@@ -24,7 +24,7 @@ pod 'JGDetailScrubber', '1.0'
 OR:
 <p>
 <b>Add source Files:</b><br>
-1. Add the `JGProgressView` folder to your Xcode Project.<br>
+1. Add the `JGDetailScrubber` folder to your Xcode Project.<br>
 2. `#import "JGDetailScrubber.h"`.
 
 Usage
